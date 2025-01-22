@@ -113,7 +113,7 @@ No entanto, para dados sobre pedidos, produtos e reservas, optou-se por não gua
 ## 1. **Autenticação**
 
 ### `POST /login`
-- **Descrição**: Efetua o login de um funcionário, retornando um token de autenticação.
+- **Descrição**: Efetua o login de um funcionário.
 
 ---
 
@@ -195,7 +195,7 @@ No entanto, para dados sobre pedidos, produtos e reservas, optou-se por não gua
 - **Descrição**: Obtém todos os produtos de uma categoria específica.
 
 ### `GET /products/status/{status}`
-- **Descrição**: Obtém todos os produtos com um determinado status (ex: disponível, esgotado).
+- **Descrição**: Obtém todos os produtos com um determinado status (ativo ou não).
 
 ---
 
