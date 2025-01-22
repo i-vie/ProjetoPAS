@@ -174,6 +174,7 @@ fun LoginScreen(
                     viewModel = viewModel)
             }
             Spacer(modifier = Modifier.height(16.dp))
+            /* Not implemented at this stage
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -190,6 +191,7 @@ fun LoginScreen(
                     }
                 )
             }
+            */
         }
     }
 }
